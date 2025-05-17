@@ -4,7 +4,7 @@
 
 **O que o ZéUrna faz?** 🤔
 
-Com uma conversa rapidinha, o ZéUrna te ajuda a encontrar possíveis candidatos com base no cargo desejado, na sua região (quando aplicável) e, principalmente, nas suas prioridades e causas importantes. É como ter um эксперт eleitoral brasileiro no seu bolso, 24 horas por dia!
+Com uma conversa rapidinha, o ZéUrna te ajuda a encontrar possíveis candidatos com base no cargo desejado, na sua região (quando aplicável) e, principalmente, nas suas prioridades e causas importantes. É como ter um consultor eleitoral brasileiro no seu bolso, 24 horas por dia!
 
 **Por dentro da urna (um pouquinho da tecnologia):** ⚙️
 
@@ -32,7 +32,7 @@ pip install python-telegram-bot --upgrade
 
 **Próximos passos (porque brasileiro não desiste nunca!):** 🚀
 
-Esta é a **Versão 1.0**, mas o ZéUrna já está de olho nas próximas eleições para trazer ainda mais funcionalidades e deixar a sua experiência eleitoral ещё melhor! Fique ligado! 😉
+Esta é a **Versão 1.0**, mas o ZéUrna já está de olho nas próximas eleições para trazer ainda mais funcionalidades e deixar a sua experiência eleitoral ainda melhor! Fique ligado! 😉
 
 **Contribuições (bora construir junto, brasileiro!):** 💪
 
