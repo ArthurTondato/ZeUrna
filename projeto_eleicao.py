@@ -114,6 +114,7 @@ async def nova_pesquisa(update: telegram.Update, context: CallbackContext) -> in
     resposta = update.message.text.lower()
     if resposta == 'sim':
         await update.message.reply_text('Ok, vamos iniciar uma nova pesquisa!', reply_markup=ReplyKeyboardRemove())
+        context.user_data.clear()  # Limpa os dados do usuário antes de iniciar novamente
         return await start(update, context)
     else:
         await update.message.reply_text('Ok, obrigado por usar o ZéUrna! 😊', reply_markup=ReplyKeyboardRemove())
