@@ -6,9 +6,8 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import os
 import requests  # Importe a biblioteca requests para fazer requisições HTTP
 
-# Substitua 'SEU_TOKEN_AQUI' pelo token do seu bot
 TOKEN = '7745631278:AAEv-RQLimflS-VgAzQfo2LX-aPiukHwKiE'
-GOOGLE_API_KEY = 'AIzaSyDzYPpOvwRoqrfNdn7W-chgbnm8n7aV7rE' # Certifique-se de que esta é a sua chave correta
+GOOGLE_API_KEY = 'AIzaSyDzYPpOvwRoqrfNdn7W-chgbnm8n7aV7rE' 
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
