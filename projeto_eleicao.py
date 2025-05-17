@@ -82,14 +82,15 @@ async def buscar_candidatos(update: telegram.Update, context: CallbackContext) -
         await update.message.reply_text('Por favor, informe o tipo de candidato e suas prioridades.')
         return INTERESSES
 
-    prompt_usuario = f"""Considerando um eleitor que busca um(a) candidato(a) para o cargo de {tipo_candidato}"""
+   prompt_usuario = f"""Considerando um eleitor que busca um(a) candidato(a) para o cargo de {tipo_candidato}"""
     if localizacao:
         prompt_usuario += f" na região de {localizacao}"
-    prompt_usuario += f""" e que prioriza as seguintes características e propostas: {interesses}. Quais são alguns nomes de possíveis candidatos e seus respectivos números (se disponíveis) para essa eleição? 
-    busque nos sites do TRE, materias de jornais e sites de campanha.
+    prompt_usuario += f""" e que prioriza as seguintes características e propostas: {interesses}. Quais são alguns nomes de possíveis candidatos e seus respectivos números (se disponíveis) para a próxima eleição?
+    busque matérias jornalisticas, artigos e sites de campanha e responda com a informação mais atual que conseguir.
     Formate a resposta de forma que fique de fácil leitura em uma conversa do telegram, contendo o Nome do Candidato, o número do Candidato e as propsotas dele que são ligadas ao tema da busca, mas não mencione nada sobre a formatação na resposta.
 
-Por fim, forneça um breve resumo de como as propostas se relacionam com essas causas. Retorne tudo de forma objetiva. caso não ache uma resposta verdadeira, não faça sugestões e também não dê exemplos de como seria uma."""
+Por fim, forneça um breve resumo de como as propostas de cada candidato se relacionam com as causas pesquisadas. Retorne tudo de forma objetiva.
+caso não ache uma resposta satisfatória, não faça sugestões e também não dê exemplos de como seria uma resposta."""
 
     await update.message.reply_text('Buscando informações... aguarde um momento.')
     try:
