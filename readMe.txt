@@ -38,4 +38,4 @@ Esta é a **Versão 1.0**, mas o ZéUrna já está de olho nas próximas eleiç�
 
 Se você é um desenvolvedor brasileiro apaixonado por Python e eleições transparentes, sinta-se à vontade para contribuir com o ZéUrna! Sua ajuda será muito bem-vinda!
 
-**Feito com ❤️ por um expert em Python brasileiro!**
+**Feito com ❤️ por um apaixonado por tecnologia e eleições transparentes no Brasil!**
