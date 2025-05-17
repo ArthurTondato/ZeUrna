@@ -90,7 +90,7 @@ async def buscar_candidatos(update: telegram.Update, context: CallbackContext) -
     busque nos sites do TRE, materias de jornais e sites de campanha.
     Formate a resposta de forma que fique de fácil leitura em uma conversa do telegram, contendo o Nome do Candidato, o número do Candidato e as propsotas dele que são ligadas ao tema da busca, mas não mencione nada sobre a formatação na resposta.
 
-Por fim, forneça um breve resumo de como as propostas se relacionam com essas causas. Retorne tudo de forma objetiva. caso não ache uma resposta verdadeira, não faça sugestões de como seria uma."""
+Por fim, forneça um breve resumo de como as propostas se relacionam com essas causas. Retorne tudo de forma objetiva. caso não ache uma resposta verdadeira, não faça sugestões e também não dê exemplos de como seria uma."""
 
     await update.message.reply_text('Buscando informações... aguarde um momento.')
     try:
